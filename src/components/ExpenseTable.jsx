@@ -1,4 +1,5 @@
 import ExpenseRow from "./ExpenseRow";
+import ExpenseTotal from "./ExpenseTotal";
 export default function ExpenseTable({ expenses, onDelete, onSort }) {
     return (
       <div className="table-responsive">
@@ -22,6 +23,7 @@ export default function ExpenseTable({ expenses, onDelete, onSort }) {
               />
             ))}
           </tbody>
+          <ExpenseTotal expenses={expenses} />
         </table>
       </div>
     );
