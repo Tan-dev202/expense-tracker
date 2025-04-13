@@ -7,7 +7,7 @@ export default function App() {
   const [expenses, setExpenses] = useState([
     {
       id: 1,
-      name: "Moringa SDFT",
+      name: "Software Development",
       description: "School fees",
       category: "personal",
       amount: 174000,
@@ -24,7 +24,7 @@ export default function App() {
     {
       id: 3,
       name: "Wi-Fi",
-      description: "Wi-Fi subscription (Faiba 90Mbps)",
+      description: "Wi-Fi subscription",
       category: "utilities",
       amount: 5000,
       date: "2025-04-01",
