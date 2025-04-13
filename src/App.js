@@ -111,7 +111,7 @@ export default function App() {
   return (
     <div className="container mt-5 mb-5">
       <h1 className="mb-3">Expense Tracker</h1>
-      <p className="text-muted mb-4 col-4">
+      <p className="mb-4 col-4">
         Start taking control of your finances and life. Record, categorize, and
         analyze your spending.
       </p>
