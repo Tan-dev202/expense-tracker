@@ -33,7 +33,7 @@ export default function ExpenseForm({ onAdd }) {
     return (
       <div className="card">
         <div className="card-body">
-          <h4 className="card-title mb-3 fw-bold">Add Expense</h4>
+          <h4 className="card-title mb-3">Add Expense</h4>
           <form onSubmit={handleSubmit}>
             <div className="mb-3">
               <input
