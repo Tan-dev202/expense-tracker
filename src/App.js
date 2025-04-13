@@ -122,18 +122,10 @@ export default function App() {
         <div id="expense-table" className="col-md-8">
           <div className="card">
             <div className="card-body">
-              <div className="d-flex mb-3">
-                <input
-                  id="expense-search"
-                  type="text"
-                  className="form-control w-50"
-                  placeholder="Search expenses..."
-                  value={searchPhrase}
-                  onChange={handleSearch}
-                />
-              </div>
               <ExpenseTable
                 expenses={sortedExpenses}
+                searchPhrase={searchPhrase}
+                onSearch={handleSearch}
                 onSort={handleSort}
                 onDelete={handleDelete}
               />
